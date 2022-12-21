@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="fertilizer.css">
+  <script src="https://kit.fontawesome.com/da212f0abf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-1">
+    <p class="labl_p">
+      <label for="chemicle"> <a href="index.html"><span class="home"><i class="fa-solid fa-house"></i></span>
+        </a>chemicle product</label>
+    </p>
+    <select name="chmi_select" id="chemicle_product" class="selector-1">
+      <option value="00:52:34">00:52:34</option>
+      <option value="13:00:45">13:00:45</option>
+      <option value="19:19:19">19:19:19</option>
+      <option value="00:00:50">00:00:50</option>
+      <option value="Super Mag">Super Mag</option>
+      <option value="Mixol">Mixol</option>
+      <option value="Calcibor">Calcibor</option>
+    </select>
+    <div class="input_button">
+      <input type="number" id="chemi_qut" class="input">
+      <button onclick="Qut_for_ltr()" class="button">click</button>
+    </div>
+    <div>
+      <table class="table_style">
+        <tr class="border">
+          <th class="qut_head">Qut</th>
+          <td colspan="2" id="chemi_ans" class="qut"> ml</td>
+        </tr>
+        <tr>
+          <th class="MRP" rowspan="4">MRP</th>
+          <td id="qut_1">1lr </td>
+          <td id="1lr_mrp"></td>
+        </tr>
+        <tr>
+          <td id="qut_2">500ml </td>
+          <td id="500ml_mrp"></td>
+        </tr>
+        <tr>
+          <td id="qut_3">5lr </td>
+          <td id="5lr_mrp"></td>
+        </tr>
+        <tr class="border">
+          <td id="qut_4">10lr </td>
+          <td id="10lr_mrp"></td>
+        </tr>
+        <tr>
+          <th class="COST_PRICE" rowspan="5">COST <br> PRICE</th>
+          <td id="qut_5">1lr </td>
+          <td id="1lr_cp"></td>
+        </tr>
+        <tr>
+          <td id="qut_6">500ml </td>
+          <td id="500ml_cp"></td>
+        </tr>
+        <tr>
+          <td id="qut_7">5lr </td>
+          <td id="5lr_cp"></td>
+        </tr>
+        <tr>
+          <td id="qut_8">10lr </td>
+          <td id="10lr_cp"></td>
+        </tr>
+        </tr>
+        <tr>
+          <td colspan="2" class="last_td">chemicle*</td>
+        </tr>
+    </div>
+  </div>
+  <script src="fertilizer.js"></script>
+</body>
+
+</html>

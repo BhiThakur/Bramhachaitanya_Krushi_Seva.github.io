@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="chemical.css">
+  <script src="https://kit.fontawesome.com/da212f0abf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container-1">
+    <p class="labl_p">
+      <label for="chemicle"> <a href="index.html"><span class="home"><i class="fa-solid fa-house"></i></span>
+        </a>chemicle product</label>
+    </p>
+    <select name="chmi_select" id="chemicle_product" class="selector-1">
+      <option value="ALKOTHRIN">ALKOTHRIN (अल्कोथ्रिन)</option>
+      <option value="KOHIBAN-50(CLORO)">KOHIBAN (कोहिबान-५०(क्लोरो))</option>
+      <option value="CYCLONE">CYCLONE</option>
+      <option value="SCORPIO(LAMADA)">SCORPIO (स्कॉर्पिओ (लॅम्बडा))</option>
+      <option value="FILIKA">FILIKA (फिलिका)</option>
+      <option value="FILJYOTI">FILJYOTI (फिलज्योती)</option>
+      <option value="IMIDA SUPER(MIDA)">IMIDA SUPER (इमिडा सुपर (मिडा))</option>
+      <option value="KASTIN(BAVISTIN)">KASTIN (कॅस्टिन (बाविस्टिन))</option>
+      <option value="KOHINOOR(MANCHOZEB)">KOHINOOR (कोहिनूर (मॅन्कोझेब))</option>
+      <option value="KOHIPHOS">KOHIPHOS (कोहिफॉस)</option>
+      <option value="RUBIGUN(SCOR)">RUBIGUN (SCOR) (रुबिगन (स्कोर))</option>
+      <option value="SUPERVIT(SULPHAR)">SUPERVIT (सुपरव्हिट (सल्फर))</option>
+      <option value="ENVIL">ENVIL (एव्हील)</option>
+      <option value="FILAZO">FILAZO (फिलाझो)</option>
+      <option value="FIL-CM">FIL-CM <br>(फिल-सीएम)</option>
+      <option value="GRAPPLE">GRAPPLE (ग्रेपल)</option>
+    </select>
+    <div class="input_button">
+      <input type="number" id="chemi_qut" class="input">
+      <button onclick="Qut_for_ltr()" class="button">click</button>
+    </div>
+    <div>
+      <table class="table_style">
+        <tr class="border">
+          <th class="qut_head">Qut</th>
+          <td colspan="2" id="chemi_ans" class="qut"> ml</td>
+        </tr>
+        <tr>
+          <th class="MRP" rowspan="4">MRP</th>
+          <td id="qut_1">1lr </td>
+          <td id="1lr_mrp"></td>
+        </tr>
+        <tr>
+          <td id="qut_2">500ml </td>
+          <td id="500ml_mrp"></td>
+        </tr>
+        <tr>
+          <td id="qut_3">5lr </td>
+          <td id="5lr_mrp"></td>
+        </tr>
+        <tr class="border">
+          <td id="qut_4">10lr </td>
+          <td id="10lr_mrp"></td>
+        </tr>
+        <tr>
+          <th class="COST_PRICE" rowspan="5">COST <br> PRICE</th>
+          <td id="qut_5">1lr </td>
+          <td id="1lr_cp"></td>
+        </tr>
+        <tr>
+          <td id="qut_6">500ml </td>
+          <td id="500ml_cp"></td>
+        </tr>
+        <tr>
+          <td id="qut_7">5lr </td>
+          <td id="5lr_cp"></td>
+        </tr>
+        <tr>
+          <td id="qut_8">10lr </td>
+          <td id="10lr_cp"></td>
+        </tr>
+        </tr>
+        <tr>
+          <td colspan="2" class="last_td">chemicle*</td>
+        </tr>
+    </div>
+  </div>
+  <script src="chemicle.js"></script>
+</body>
+
+</html>
