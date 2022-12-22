@@ -21,7 +21,7 @@ function Qut_for_ltr(){
 
     
     if( ChemiName == "Derish") {
-        message = ChemiQut * 1 + " ml";
+        message = ChemiQut * 1.5 + " ml";
         One_lr_mrp = "₹2950";
         fiveHundrade_ml_mrp = "-";
         five_lr_mrp = "-";
@@ -40,7 +40,7 @@ function Qut_for_ltr(){
         qut8 = "10lr";
     }
     else if( ChemiName == "Ecoda") {
-        message = ChemiQut * 1 + " ml";
+        message = ChemiQut * 1.5 + " ml";
         One_lr_mrp = "₹970";
         fiveHundrade_ml_mrp = "-";
         five_lr_mrp = "₹4500";
