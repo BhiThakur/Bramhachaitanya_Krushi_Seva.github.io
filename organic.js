@@ -80,7 +80,7 @@ function Qut_for_ltr(){
     else if( ChemiName == "Boost") {
         message = ChemiQut * 0.17 + " ml";
         One_lr_mrp = "₹11195";
-        fiveHundrade_ml_mrp = "₹3012";
+        fiveHundrade_ml_mrp = "₹5892";
         five_lr_mrp = "₹3500";
         tenlr_mrp = "₹1242";
         onelr_cp= "₹6500";
