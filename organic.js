@@ -47,7 +47,7 @@ function Qut_for_ltr(){
         tenlr_mrp = "₹8800";
         onelr_cp= "₹650";
         fiveHundrade_ml_cp = "-";
-        five_lr_cp = "-";
+        five_lr_cp = "₹2875";
         ten_lr_cp = "₹6250";
         qut1 = "1lr";
         qut2 = "500ml";
@@ -84,7 +84,7 @@ function Qut_for_ltr(){
         five_lr_mrp = "₹3500";
         tenlr_mrp = "₹1242";
         onelr_cp= "₹6500";
-        fiveHundrade_ml_cp = "₹3500";
+        fiveHundrade_ml_cp = "₹3425";
         five_lr_cp = "₹1800";
         ten_lr_cp = "₹850";
         qut1 = "1lr";
@@ -122,7 +122,7 @@ function Qut_for_ltr(){
         fiveHundrade_ml_mrp = "-";
         five_lr_mrp = "-";
         tenlr_mrp = "-";
-        onelr_cp= "₹900";
+        onelr_cp= "₹850";
         fiveHundrade_ml_cp = "-";
         five_lr_cp = "-";
         ten_lr_cp = "-";
@@ -160,7 +160,7 @@ function Qut_for_ltr(){
         fiveHundrade_ml_mrp = "-";
         five_lr_mrp = "-";
         tenlr_mrp = "-";
-        onelr_cp= "₹-";
+        onelr_cp= "₹985";
         fiveHundrade_ml_cp = "-";
         five_lr_cp = "-";
         ten_lr_cp = "-";
